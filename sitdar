@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Association Solidaire</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>Association Solidaire</h1>
+  <p>Ensemble pour un monde meilleur</p>
+</header><nav>
+  <a href="#about">À propos</a>
+  <a href="#actions">Nos actions</a>
+  <a href="#contact">Contact</a>
+</nav><section id="about">
+  <div class="card">
+    <h2>À propos</h2>
+    <p>Notre association œuvre pour aider les personnes dans le besoin et promouvoir la solidarité.</p>
+  </div>
+</section><section id="actions">
+  <div class="card">
+    <h2>Nos actions</h2>
+    <ul>
+      <li>Distribution de repas</li>
+      <li>Collecte de vêtements</li>
+      <li>Événements solidaires</li>
+    </ul>
+  </div>
+</section><section id="contact">
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email : contact@association.org</p>
+    <p>Téléphone : 01 23 45 67 89</p>
+  </div>
+</section><footer>
+  <p>&copy; 2026 Association Solidaire</p>
+</footer></body>
+</html>
